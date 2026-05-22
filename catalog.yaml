@@ -1,0 +1,9 @@
+version: 1
+components:
+  - claude-code.yaml
+  - git-hosting.yaml
+  - go.yaml
+  - node.yaml
+  - python.yaml
+  - rust.yaml
+  - vertex-ai.yaml
