@@ -4,6 +4,14 @@ match:
   tools:
     - rust
     - cargo
+probe_binaries:
+  - cargo
+  - rustc
+runtime_globs:
+  - /sandbox/.rustup/toolchains/*/bin/cargo
+  - /sandbox/.rustup/toolchains/*/bin/rustc
+  - /sandbox/.cargo/bin/cargo
+  - /sandbox/.cargo/bin/rustc
 endpoints:
   - host: crates.io
     port: 443
