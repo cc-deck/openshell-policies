@@ -15,6 +15,12 @@ endpoints:
     port: 443
   - host: raw.githubusercontent.com
     port: 443
+  - host: github.com
+    port: 443
+  - host: api.github.com
+    port: 443
+    protocol: rest
+    access: full
 binaries:
   - path: /usr/local/bin/claude
   - path: /sandbox/.local/bin/claude
