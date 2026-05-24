@@ -5,6 +5,11 @@ match:
     - python
     - pip
     - uv
+probe_binaries:
+  - pip
+  - pip3
+  - uv
+  - python3
 endpoints:
   - host: pypi.org
     port: 443

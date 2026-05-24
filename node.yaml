@@ -4,8 +4,14 @@ match:
   tools:
     - node
     - npm
+probe_binaries:
+  - node
+  - npm
+  - npx
 endpoints:
   - host: registry.npmjs.org
     port: 443
   - host: npmjs.org
+    port: 443
+  - host: npmjs.com
     port: 443

@@ -3,6 +3,8 @@ name: go packages
 match:
   tools:
     - go
+probe_binaries:
+  - go
 endpoints:
   - host: proxy.golang.org
     port: 443
