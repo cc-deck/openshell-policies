@@ -12,3 +12,7 @@ endpoints:
 binaries:
   - path: /usr/bin/git
   - path: /usr/bin/gh
+  - path: /usr/local/bin/claude
+  - path: /sandbox/.local/bin/claude
+  - path: /sandbox/.local/share/claude/**
+  - path: /usr/bin/node
