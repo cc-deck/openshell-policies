@@ -5,6 +5,8 @@ match:
 endpoints:
   - host: github.com
     port: 443
+  - host: github.com
+    port: 22
   - host: api.github.com
     port: 443
     protocol: rest

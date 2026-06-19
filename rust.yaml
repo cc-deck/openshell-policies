@@ -19,3 +19,5 @@ endpoints:
     port: 443
   - host: static.crates.io
     port: 443
+  - host: static.rust-lang.org
+    port: 443
